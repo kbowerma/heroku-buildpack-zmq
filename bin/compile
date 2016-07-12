@@ -30,6 +30,8 @@ cd $BUILD_DIR
 
 mkdir $ZMQ_NAME
 
+cd $ZMQ_NAME
+
 npecho "fetching source from $ZMQ_SOURCE_URL"
 curl -sL $ZMQ_SOURCE_URL | tar zxf -
 
